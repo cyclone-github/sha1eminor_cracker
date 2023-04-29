@@ -11,3 +11,6 @@ Hash gen for custom algo: sha1(eMinor--$saltsha1(eMinor--$plaintext--})--})
 Usage:
 - ./sha1eminor_generator.bin (prompts for password)
 - version 0.1.0; initial release
+
+Compile from source code info:
+- https://github.com/cyclone-github/scripts/blob/main/intro_to_go.txt

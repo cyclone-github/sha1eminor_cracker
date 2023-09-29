@@ -1,15 +1,17 @@
-# Cyclone's SHA1eMinor Hash Cracker
+# SHA1eMinor Hash Cracker
 Multithreaded hash cracker for custom algo: sha1(eMinor--$saltsha1(eMinor--$plaintext--})--})
 
 Usage:
-- ./sha1eminor_cracker.bin -w wordlist.txt -h hashes.txt
-- version 0.2.1; added sanity checks, buffio and program stats
 
-# Cyclone's SHA1eMinor Hash Gen
+`./sha1eminor_cracker.bin -w wordlist.txt -h hashes.txt`
+- v2023-09-29.1100; fixed bug that caused program to not exit when all hashes were cracked, multiple code modifications for better hashrate and thread-safety
+
+# SHA1eMinor Hash Gen
 Hash gen for custom algo: sha1(eMinor--$saltsha1(eMinor--$plaintext--})--})
 
 Usage:
-- ./sha1eminor_generator.bin (prompts for password)
+
+`./sha1eminor_generator.bin (prompts for password)`
 - version 0.1.0; initial release
 
 Compile from source code info:

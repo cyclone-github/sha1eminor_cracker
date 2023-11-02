@@ -22,10 +22,6 @@ import (
 // POC hash cracker for the custom algo sha1(eMinor--$saltsha1(eMinor--$plaintext--})--})
 // coded by cyclone
 // multithreaded version
-// v0.1.0; initial release
-// v0.2.0; added multithreading support
-// v0.2.1; added sanity checks, buffio and program stats
-// v0.2.2; added logic to remove cracked hashes from hash map
 // v2023-09-29.1100; fixed bug that caused program to not exit when all hashes were cracked, multiple code modifications for better hashrate and thread-safety
 
 // clear screen function

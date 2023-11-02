@@ -12,7 +12,7 @@ import (
 
 // hash generator for the custom algo sha1(eMinor--$saltsha1(eMinor--$plaintext--})--})
 // coded by cyclone
-// version 0.1.0; initial release
+// v2023-09-29.1100; initial release
 
 // clear screen function
 func clearScreen() {

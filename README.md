@@ -1,4 +1,8 @@
+### _Note, Plum has released a custom hashcat kernel for this algo which is recommended over using this tool_
+https://github.com/PlumLulz/sha1_eMinor
+
 # SHA1eMinor Hash Cracker
+
 Multithreaded hash cracker for custom algo: sha1(eMinor--$saltsha1(eMinor--$plaintext--})--})
 
 _**This tool was proudly the first publicly released cracker for this custom algo.**_

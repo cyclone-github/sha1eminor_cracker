@@ -1,3 +1,4 @@
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cyclone-github&repo=sha1eminor_cracker&theme=gruvbox)](https://github.com/cyclone-github/)
 ### _Note, Plum has released a custom hashcat kernel for this algo which is recommended over using this tool_
 https://github.com/PlumLulz/sha1_eMinor
 
